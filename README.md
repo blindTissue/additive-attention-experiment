@@ -38,6 +38,8 @@ Training produces individual loss plots for each configuration:
 - `loss_plot_sinusoidal=False_additive=False.png`
 - `loss_plot_sinusoidal=False_additive=True.png`
 
+TL;DR: All configurations achieve similar performance, suggesting that both positional embedding types and attention mechanisms are viable.
+
 ## Usage
 
 ```bash
@@ -53,7 +55,3 @@ python main.py --use_sinusoidal_pos_emb false --use_additive_attention true
 - Python >=3.11
 - PyTorch
 - matplotlib
-
-```bash
-pip install torch matplotlib
-```
